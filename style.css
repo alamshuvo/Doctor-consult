@@ -67,12 +67,15 @@ button.btn {
 @media screen and (max-width: 992px) {
     body {
       background-color: beige;
+      margin: 0 auto;
+     overflow: hidden;
+      box-sizing: border-box;
     }
     .header-area-wrapper {
         display: flex;
         flex-direction: column;
         gap: 100px;
-        align-items: center;
+        align-items:start;
     }
     .nav-bar-section {
         flex-direction: column;
