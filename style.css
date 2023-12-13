@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    width: 1280px;
+    max-width: 1280px;
     margin: 0px auto;
 }
 body {
@@ -28,7 +28,7 @@ img{
 }
 .nav-bar-section ul {
     display: flex;
-    gap: 50px;
+    gap: 90px;
     list-style: none;
 }
 .nav-bar-section ul li{
@@ -69,12 +69,33 @@ button.btn {
     background-color: azure;
     border-radius: 20px;
     width: 500px;
+
+}
+/* .hero-dotted-img img {
+    width: 100px;
+    position: relative;
+    padding-left: 420px;
+} */
+/* hero area section end */
+/* about us area start */
+.about-us-area-img img {
+    width: 200px;
+}
+.about-us-text h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
 }
 
-.hero-area-img img {
-    height: 600px;
+.about-us-area-img {
+    display: grid;
+    grid-gap: 100px;
+    margin-top: 100px;
+    grid-template-columns: repeat(3,1fr);
 }
-/* hero area section end */
+
+
+/* about us area end */
 
 @media screen and (max-width: 600px) {
     body {
