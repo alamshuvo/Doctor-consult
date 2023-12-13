@@ -13,6 +13,10 @@ body {
 img{
     width: 100%;
 }
+span{
+    font-size: 55px;
+    color: rgb(11, 81, 29);
+}
 /* header area section start */
 .header-area-wrapper {
     display: flex;
@@ -96,6 +100,52 @@ button.btn {
 
 
 /* about us area end */
+/* appoinment area start */
+.location-area {
+    width: 100px;
+    background-color: darkslategrey;
+}
+.appoinment-text h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.appoinment-area-wrapper {
+    background-color: #04366C;
+    color: wheat;
+    margin-top: 100px;
+}
+.appoinment-img {
+    display: flex;
+    justify-content: space-between;
+}
+.appoinment-text{
+    padding: 100px;
+}
+.another-button button{
+    text-align: center;
+}
+/* appoinment area end */
+/* expart doctor area start */
+.expart-doctor-img img {
+    width: 200px;
+    background-color:#9CC4EC;
+}
+
+.expart-doctor-img {
+    display: flex;
+    justify-content: space-between;
+}
+.expart-doctor-wrapper{
+    margin-top: 200px;
+}
+.expart-doctor-text h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    padding: 20px;
+    margin: 50px;
+}
+/* expart doctor area end */
 
 @media screen and (max-width: 600px) {
     body {
